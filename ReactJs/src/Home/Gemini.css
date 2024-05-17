@@ -1,0 +1,50 @@
+.custumer_chatbot_icon_button {
+  cursor: pointer;
+  display: block;
+  position: fixed !important;
+  bottom: 0;
+  display: block;
+  margin: 20px;
+}
+.conversation {
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.conversation input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.conversation button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.conversation button:hover {
+  background-color: #0056b3;
+}
+.cusumer_img {
+  width: 11%;
+  border-radius: 45%;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+@media (max-width: 768px) {
+  .cusumer_img {
+    width: 23%;
+  }
+}

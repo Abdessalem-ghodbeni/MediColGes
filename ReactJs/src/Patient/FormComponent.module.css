@@ -1,0 +1,49 @@
+/* FormComponent.css */
+.form-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.formName {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.responseCards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.responseCard {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  width: calc(33.33% - 20px); /* Adjust width as needed */
+  box-sizing: border-box;
+}
+
+.responseTitle {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.responseList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.responseItem {
+  margin-bottom: 5px;
+  overflow-wrap: break-word; /* Apply word-wrap */
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.answerTitle {
+  font-weight: bold;
+}

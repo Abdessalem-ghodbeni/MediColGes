@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+
+  backend:
+    image: mondherar/comedic_nodejs:latest
+    restart: always
+    ports:
+      - "3000:3000"
+
+  frontend:
+    image: mondherar/comedic_reactjs:latest
+    restart: always
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend

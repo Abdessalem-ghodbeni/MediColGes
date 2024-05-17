@@ -1,0 +1,26 @@
+.card {
+  padding: 1rem;
+  border: 1px lightgray solid;
+  margin: 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+.mauve_icon {
+  background-color: #8a2be2; /* Couleur mauve */
+}
+.whiteColor {
+  color: white;
+}
+.ShareButton {
+  background-color: gray !important;
+  color: #fff;
+  margin-left: 10px;
+}
+.flexR {
+  display: flex;
+  flex-direction: column;
+}

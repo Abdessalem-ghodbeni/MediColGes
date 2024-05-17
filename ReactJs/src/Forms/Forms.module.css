@@ -1,0 +1,32 @@
+.availableFields{
+    box-shadow: 0px 2px 6px 0px rgba(30, 30, 30, 0.25);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F5F6F6;
+}
+
+.draggableInput{
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    cursor: grab;
+    background-color: white;
+}
+
+.dragInputs{
+    box-shadow: 0px 2px 6px 0px rgba(30, 30, 30, 0.25);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    width: 80%;
+    /* background-color: white; */
+}
+
+.dragCol{
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

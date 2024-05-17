@@ -1,0 +1,9 @@
+.custumer_footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.custumer_pie {
+  width: "20rem";
+  height: "20rem";
+}
